@@ -1,17 +1,27 @@
-body {
-  background: #fafafa;
-  margin: 0;
+.block1 {
+  width: 300px;
+  height: 300px;
+  background: teal;
+  color: #fff;
+  font-size: 30px;
+  float: left;
 }
 
-.header {
-  background: #1b39ab;
-  height: 70px;
+.block2 {
+  width: 400px;
+  height: 400px;
+  background: #000;
+  color: #fff;
+  font-size: 30px;
+  float: right;
+}
+.box {
+  width: 4em;
+  height: 4em;
+  background: #bada55;
+  position: absolute;
+  top: 4em;
+  margin-left: -2em;
+  left: 50%;
 }
 
-.wrapper {
-  height: 700px;
-  width: 960px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-  background: #fff;
-  margin: 10px auto;
-}
