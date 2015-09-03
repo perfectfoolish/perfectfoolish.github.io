@@ -8,6 +8,9 @@ body {
   font: 17px/1.7 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
   color: #555;
 }
+img {
+  border: none;
+}
 
 .clearfix:before,
 .clearfix:after {
@@ -27,7 +30,6 @@ body {
 }
 
 .wrapper {
-  height: 700px;
   width: 960px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
   background: #fff;
@@ -40,5 +42,10 @@ body {
   font-weight: normal;
   color: #eb3170;
   text-align: center;
-  margin: 30px 0;
+  margin: 10px 0;
+}
+.post-img {
+  max-width: 100%;
+  display: block;
+  margin: 30px auto;
 }
