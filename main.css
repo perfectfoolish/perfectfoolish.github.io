@@ -1,27 +1,44 @@
-.block1 {
-  width: 300px;
-  height: 300px;
-  background: teal;
-  color: #fff;
-  font-size: 30px;
-  float: left;
+/* common css */
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #fafafa;
+  margin: 0;
+  font: 17px/1.7 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
+  color: #555;
 }
 
-.block2 {
-  width: 400px;
-  height: 400px;
-  background: #000;
-  color: #fff;
-  font-size: 30px;
-  float: right;
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; 
 }
-.box {
-  width: 4em;
-  height: 4em;
-  background: #bada55;
-  position: absolute;
-  top: 4em;
-  margin-left: -2em;
-  left: 50%;
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
 }
 
+.header {
+  background: #1b39ab;
+  height: 70px;
+}
+
+.wrapper {
+  height: 700px;
+  width: 960px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  background: #fff;
+  margin: 10px auto;
+  padding: 30px;
+}
+
+/* blog post */
+.post-title {
+  font-weight: normal;
+  color: #eb3170;
+  text-align: center;
+  margin: 30px 0;
+}
