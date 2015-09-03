@@ -3,13 +3,15 @@
   box-sizing: border-box;
 }
 body {
-  background: #fafafa;
   margin: 0;
-  font: 17px/1.7 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
+  font: 15px/1.7 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
   color: #555;
 }
 img {
   border: none;
+}
+a {
+  text-decoration: none;
 }
 
 .clearfix:before,
@@ -23,21 +25,44 @@ img {
 .clearfix {
   *zoom: 1;
 }
+/* layout.css */
 
 .header {
-  background: #1b39ab;
-  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #00b0b8;
+  height: 50px;
 }
 
-.wrapper {
-  width: 960px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-  background: #fff;
-  margin: 10px auto;
+.header .logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  /*居中*/
+  position: fixed;
+  left: 50%;
+  margin-left: -30px;
+  top: 10px;
+  /*字体剧中*/
+  color: #fff;
+  font-size: 35px;
+  line-height: 60px;
+  text-align: center;
+  /*颜色样式*/
+  background: #00c4cc;
+  box-shadow: 0 5px 5px rgba(0,0,0,.1);
+}
+
+/* blog.css */
+.blog-wrapper {
+  width: 660px;
+  margin: 0px auto;
+  margin-top: 40px;
   padding: 30px;
 }
-
-/* blog post */
 .post-title {
   font-weight: normal;
   color: #eb3170;
