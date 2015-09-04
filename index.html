@@ -1,10 +1,12 @@
+<!-- layout/default -->
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
-<body class="welcome">
+<body>
   <div class="header">
     <div class="container clearfix">
       <ul class="nav">
@@ -13,12 +15,14 @@
         <li><a href="">About</a></li>
       </ul>
     </div>
-    <a href="/" class="logo">P</a>
+    <a href="./index.html" class="logo">P</a>
   </div>
-  <div class="banner-page clearfix">
-    <h1 class="tagline">
-      嗨，我是 Peter
-    </h1>
+  <!-- layout/default -->
+
+  <div class="banner-page clearfix" style=" background-image: url(images/learn-by-making.jpg)">
+    <div class="container">
+      <a href="post1.html" class="read-btn">阅读本文</a>
+    </div>
   </div>
   <div class="post-list-wrapper">
     <div class="container clearfix">
@@ -35,9 +39,33 @@
           2015年9月4日
         </div>
       </div>
+      <div class="post">
+        <a href="post1.html" class="thumbnail-image">
+          <img src="images/learn-by-making.jpg" alt="" class="thumbnail">
+        </a>
+        <div class="post-info">
+          <h3>
+            <a href="post2.html">美好的一天</a>
+          </h3>
+        </div>
+        <div class="date">
+          2015年9月4日
+        </div>
+      </div>
       <div class="post"></div>
-      <div class="post"></div>
+    </div>
+  </div>
+
+  <!-- layout/default -->
+  <div class="footer">
+    <div class="container clearfix">
+      <ul class="icon-wrapper">
+        <li class="icon"><a href="http://github.com/happypeter"> <i class="fa fa-github-alt"></i> </a></li>
+        <li class="icon red"><a href="mailto:happypeter1983@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+        <li class="icon"><a href="http://weibo.com/happycasts"><i class="fa fa-weibo"></i></a></li>
+      </ul>
     </div>
   </div>
 </body> 
 </html>
+<!-- layout/default -->

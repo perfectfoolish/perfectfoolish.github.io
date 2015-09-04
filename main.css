@@ -40,19 +40,29 @@ a {
 /* welcome.css */
 
 .banner-page {
-  background: url("./images/learn-by-making.jpg");
   height: 450px;
   background-size: cover;
   background-position: 50% 50%;
   margin-top: -50px;
 }
-.tagline {
-  margin-top: 350px;
-  margin-bottom: 10px;
-  color: #fff;
+.banner-page .container {
+  height: 100%;
+  position: relative; 
+}
+.read-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
   text-align: center;
-  font-size: 40px;
-  font-weight: normal;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+.read-btn:hover {
+  color: #000;
+  border-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 .post-list-wrapper {
   padding: 70px 0;
