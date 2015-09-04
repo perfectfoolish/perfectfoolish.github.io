@@ -25,6 +25,13 @@ a {
 .clearfix {
   *zoom: 1;
 }
+/* welcom.css */
+.banner-page {
+  background: url("./images/learn-by-making.jpg");
+  height: 450px;
+  background-size: cover;
+  background-position: 50% 50%;
+ }
 /* layout.css */
 
 .header {
