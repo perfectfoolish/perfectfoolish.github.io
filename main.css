@@ -32,6 +32,11 @@ a {
   background-size: cover;
   background-position: 50% 50%;
  }
+ .tagline {
+  margin-top: 150px;
+  color: #fff;
+  text-align: center;
+ }
 /* layout.css */
 
 .header {
