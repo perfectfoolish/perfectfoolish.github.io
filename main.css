@@ -116,7 +116,7 @@ a {
 /* layout.css */
 
 .header {
-  width: 100%;
+  min-width: 960px;
   background: rgba(0,0,0,.3);
   height: 50px;
   position: relative;
