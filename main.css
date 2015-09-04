@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 body {
+  min-width: 980px;
   margin: 0;
   font: 15px/1.7 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
   color: #555;
@@ -11,8 +12,8 @@ img {
   border: none;
 }
 .container {
-  max-width: 960px;
   margin: 0 auto;
+  width: 960px;
 }
 a {
   text-decoration: none;
