@@ -195,18 +195,13 @@ a {
   float: left;
   margin-right: 7px;
   font-size: 20px;
+  background: #2196F3;
+}
+.footer .icon.red {
+  background: #D32F2F;
 }
 .footer .icon a {
   color: #fff;
-}
-.icon.github {
-  background: #2196f3;
-}
-.icon.weibo {
-  background: #D32F2F;
-}
-.icon.email {
-  background: #00BCD4;
 }
 /* blog.css */
 .blog-banner {
