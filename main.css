@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 body {
-  min-width: 980px;
   margin: 0;
   font: 15px/1.7 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
   color: #555;
@@ -110,7 +109,7 @@ a {
 }
 .post .thumbnail {
   display: block;
-  width: 300px;
+  width: 100%;
   height: 200px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
