@@ -21,6 +21,11 @@ img {
   margin: 0 auto;
   width: 960px;
 }
+@media ( max-width: 970px ) {
+  .container {
+    width: 96%;
+  }
+}
 a {
   text-decoration: none;
   transition: all 0.3;
@@ -80,6 +85,13 @@ a {
   box-shadow: 0 2px 1px rgba(0,0,0,.08);
   /* 专门为date设置的relative */
   position: relative;
+}
+@media ( max-width: 970px ) {
+  .post {
+    width: 29.333%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 }
 .thumbnail-image {
   display: block;
